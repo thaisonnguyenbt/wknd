@@ -16,24 +16,25 @@
 
 @import (once) "/libs/wcm/foundation/clientlibs/grid/grid_base.less";
 
-/* maximum amount of grid cells to be provided */
-@max_col: 12;
+ /* grid.less snippet */
 
-/* default breakpoint */
-.aem-Grid {
-  .generate-grid(default, @max_col);
-}
+ /* maximum amount of grid cells to be provided */
+     @max_col: 12;
 
-/* phone breakpoint */
-@media (max-width: 650px) {
-  .aem-Grid {
-    .generate-grid(phone, @max_col);
-  }
-}
-
-/* tablet breakpoint */
-@media (min-width: 651px) and (max-width: 1200px) {
-  .aem-Grid {
-    .generate-grid(tablet, @max_col);
-  }
-}
+     /* default breakpoint */
+     .aem-Grid {
+         .generate-grid(default, @max_col);
+         width: auto;
+     }
+     /* phone breakpoint */
+     @media (max-width: @screen-small) {
+         .aem-Grid {
+             .generate-grid(phone, @max_col);
+         }
+     }
+     /* tablet breakpoint */
+     @media (min-width: (@screen-small + 1)) and (max-width: @screen-large) {
+         .aem-Grid {
+             .generate-grid(tablet, @max_col);
+         }
+     }
