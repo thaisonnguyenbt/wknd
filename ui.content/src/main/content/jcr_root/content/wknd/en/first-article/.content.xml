@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-14T23:42:31.410+08:00"
+        cq:lastModified="{Date}2019-07-15T23:50:58.462+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -19,14 +19,110 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/breadcrumb"/>
-                <image
-                    jcr:created="{Date}2019-07-14T23:42:31.408+08:00"
+                <title
+                    jcr:created="{Date}2019-07-15T23:46:57.110+08:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-14T23:42:31.408+08:00"
+                    jcr:lastModified="{Date}2019-07-15T23:46:57.110+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/title"/>
+                <text
+                    jcr:created="{Date}2019-07-15T23:46:53.405+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-15T23:47:41.840+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <text_1229662896
+                    jcr:created="{Date}2019-07-15T23:47:11.373+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-15T23:47:47.607+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1229662896>
+                <image
+                    jcr:created="{Date}2019-07-15T23:48:23.410+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-15T23:48:23.410+08:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"/>
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/lava-into-ocean.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <image_984681046
+                    jcr:created="{Date}2019-07-15T23:48:32.730+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-15T23:48:32.730+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image_984681046>
+                <image_744547973
+                    jcr:created="{Date}2019-07-15T23:48:41.434+08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-15T23:48:41.434+08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image_744547973>
             </responsivegrid>
         </root>
     </jcr:content>
