@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <navigation
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wknd/components/structure/navigation"/>
+    <search
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wknd/components/structure/search"/>
+</jcr:root>
