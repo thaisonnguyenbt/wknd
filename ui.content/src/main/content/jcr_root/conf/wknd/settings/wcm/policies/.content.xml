@@ -32,7 +32,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_65448833248214
-                        jcr:lastModified="{Date}2019-07-16T01:55:18.376+08:00"
+                        jcr:lastModified="{Date}2019-07-16T10:19:39.332+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -67,6 +67,15 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_65448833248214>
+                    <policy_1090703985219
+                        jcr:lastModified="{Date}2019-07-16T10:24:01.851+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Article - Sidebar"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1090703985219>
                 </responsivegrid>
             </components>
         </foundation>
@@ -87,7 +96,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <title jcr:primaryType="nt:unstructured">
                     <policy_1563208027215
-                        jcr:lastModified="{Date}2019-07-16T00:54:13.851+08:00"
+                        jcr:lastModified="{Date}2019-07-16T10:24:12.042+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Title - Article"
@@ -111,7 +120,7 @@
                 </title>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1563208958494
-                        jcr:lastModified="{Date}2019-07-16T00:54:04.573+08:00"
+                        jcr:lastModified="{Date}2019-07-16T10:24:18.081+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Text - Article"
@@ -211,7 +220,7 @@
                 </text>
                 <list jcr:primaryType="nt:unstructured">
                     <policy_1563210156641
-                        jcr:lastModified="{Date}2019-07-16T01:03:46.982+08:00"
+                        jcr:lastModified="{Date}2019-07-16T10:24:37.005+08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND List - Article"
@@ -240,6 +249,68 @@
                         </cq:styleGroups>
                     </policy_1563210156641>
                 </list>
+                <image jcr:primaryType="nt:unstructured">
+                    <policy_1563243250646
+                        jcr:lastModified="{Date}2019-07-16T10:24:31.333+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Image - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedRenditionWidths="[300,500,800,1000,1200]"
+                        allowUpload="true"
+                        altValueFromDAM="false"
+                        disableLazyLoading="true"
+                        displayPopupTitle="false"
+                        isDecorative="false"
+                        jpegQuality="{Long}100"
+                        titleValueFromDAM="false"
+                        uuidDisabled="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <plugins jcr:primaryType="nt:unstructured">
+                            <crop
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <aspectRatios jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Wide Landscape"
+                                        ratio="0.6180"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Landscape"
+                                        ratio="0.8284"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Square"
+                                        ratio="1"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Portrait"
+                                        ratio="1.6180"/>
+                                </aspectRatios>
+                            </crop>
+                            <rotate
+                                jcr:primaryType="nt:unstructured"
+                                features="right"/>
+                            <flip
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        </plugins>
+                    </policy_1563243250646>
+                </image>
+                <breadcrumb jcr:primaryType="nt:unstructured">
+                    <policy_1563243435580
+                        jcr:lastModified="{Date}2019-07-16T10:18:15.954+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Breadcrumb - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        hideCurrent="false"
+                        showHidden="false"
+                        startLevel="2">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1563243435580>
+                </breadcrumb>
             </content>
         </components>
     </wknd>
